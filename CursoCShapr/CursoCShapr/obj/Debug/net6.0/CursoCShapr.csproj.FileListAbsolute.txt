@@ -1,0 +1,15 @@
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.csproj.AssemblyReference.cache
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.AssemblyInfoInputs.cache
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.AssemblyInfo.cs
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.csproj.CoreCompileInputs.cache
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\bin\Debug\net6.0\CursoCShapr.exe
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\bin\Debug\net6.0\CursoCShapr.deps.json
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\bin\Debug\net6.0\CursoCShapr.runtimeconfig.json
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\bin\Debug\net6.0\CursoCShapr.dll
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\bin\Debug\net6.0\CursoCShapr.pdb
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.dll
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\refint\CursoCShapr.dll
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.pdb
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\CursoCShapr.genruntimeconfig.cache
+C:\Users\Vincy\Documents\Cod3r\CursoCShapr\CursoCShapr\obj\Debug\net6.0\ref\CursoCShapr.dll
