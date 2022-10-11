@@ -13,7 +13,7 @@ namespace CursoCSharp.Fundamentos
 			num1 *= 5; // num1 = num1 * 5
 			num1 /= 2; // num1 = num1 / 2
 
-			Console.WriteLine($"{a} {b}");
+			Console.WriteLine($"{num1} {num1}");
 
 			// Não se preocupe com o código
 			dynamic c = new System.Dynamic.ExpandoObject();
