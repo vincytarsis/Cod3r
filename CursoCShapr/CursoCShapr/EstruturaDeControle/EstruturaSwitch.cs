@@ -8,14 +8,15 @@ namespace CursoCSharp.EstruturasDeControle
 	{
 		public static void Executar() {
 			Console.Write("Avalie meu atendimento com uma nota de 1 a 5:");
-			int.TryParse(Consele.ReadLine(), out int nota);
+			int.TryParse(Console.ReadLine(), out int nota);
 
 			switch (nota) {
 				case 0:
 					Console.WriteLine("Pessimo");
 					break;
-				case 1 or case 2:
+				case 1 or 2:
 					Console.WriteLine("Ruim");
+					break;
 				case 3:
 					Console.WriteLine("Regular");
 					break;
