@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturaDeControle {
     class EstruturaWhile {
         public static void Executar() {
             int palpite = 0;
