@@ -10,16 +10,14 @@ namespace CursoCSharp.ClassesEMetodos {
         public string Fabricante;
         public int Ano;
 
-        public Carro(string modelo, string fabrincante, int ano) {
+        public Carro(string modelo, string fabricante, int ano) {
             Modelo = modelo;
-            Fabricante = Fabricante;
+            Fabricante = fabricante;
             Ano = ano;
         }
-
         public Carro() {
-
+            
         }
-
     }
     class Construtores {
 
@@ -36,7 +34,7 @@ namespace CursoCSharp.ClassesEMetodos {
             var carro3 = new Carro() {
                 Fabricante = "Wolskvagen",
                 Modelo = "Golf",
-                Ano = 2022
+                Ano = 2022,
             };
             Console.WriteLine($"{carro3.Fabricante} {carro3.Modelo} {carro3.Ano}");
 
