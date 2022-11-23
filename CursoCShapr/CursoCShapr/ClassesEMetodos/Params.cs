@@ -1,20 +1,21 @@
 using System;
-using System.Collections.Gemeric;
+using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace CursoCsharp.ClassesEMetodos
-{
-	class Params
-	{
-		public static void Recepcionar(params string[] pessoas)
-		{
+namespace CursoCSharp.ClassesEMetodos {
+	class Params {
+
+		public static void Recepcionar(params string[] pessoas) {
+
 			foreach (var pessoa in pessoas)
 			{
 				Console.WriteLine($"Olá {pessoa}");
 			}
 		}
-		public static void Executar()
-		{
+		public static void Executar() {
+
 			Recepcionar("Vincy", "Pedro", "Bia", "Duda");
 		}
 	}
