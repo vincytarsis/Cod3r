@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
@@ -56,6 +56,7 @@ namespace CursoCSharp {
                 {"Enum - Classes e Métodos", ExemploEnum.Executar},
                 {"Struct - Classes e Métodos", ExemploStruct.Executar},
                 {"Struct vs Classe - Classes e Métodos", StructVsClasse.Executar},
+                {"Valor versos Referencia - Classes e Métodos", ValorVsReferencia.Executar},
 
                 
 
