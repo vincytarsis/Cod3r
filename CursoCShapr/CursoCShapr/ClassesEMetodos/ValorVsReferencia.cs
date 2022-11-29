@@ -1,7 +1,7 @@
 using System;
 
 
-namespace CursoCsharp.ClassesEMetodos
+namespace CursoCSharp.ClassesEMetodos
 {
 
     public class Dependente

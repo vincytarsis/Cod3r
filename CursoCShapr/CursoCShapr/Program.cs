@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
-using CursoCsharp.ClassesEMetodos;
+
+
+//using CursoCsharp.Colecoes; 
+
 
 namespace CursoCSharp {
     class Program {
@@ -28,8 +31,7 @@ namespace CursoCSharp {
                 {"Operadores Unarios - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternario - Fundamentos", OperadorTernario.Executar},
                 
-                // Estrutura de Controle
-                
+                // Estrutura de Controle  
                 {"Estrutura If - Estruturas de Controle", EstruturaIf.Executar},
                 {"Estrutura If e Else - Estruturas de Controle", EstruturaIfElse.Executar},
                 {"Estrutura If e Else If - Estruturas de Controle", EstruturaIfElseIf.Executar},
@@ -57,8 +59,11 @@ namespace CursoCSharp {
                 {"Struct - Classes e Métodos", ExemploStruct.Executar},
                 {"Struct vs Classe - Classes e Métodos", StructVsClasse.Executar},
                 {"Valor versos Referencia - Classes e Métodos", ValorVsReferencia.Executar},
-
+                {"Parametros por Referencia - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parametro Padrao - Classes e Métodos", ParametroPadrao.Executar},
                 
+                // Colecões
+                //{"Array - Colecoes", Colecoes.Arry.Executar},
 
             });
 
