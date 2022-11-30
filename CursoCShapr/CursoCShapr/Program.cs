@@ -4,9 +4,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
-
-
-//using CursoCsharp.Colecoes; 
+using CursoCSharp.Colecoes; 
 
 
 namespace CursoCSharp {
@@ -63,8 +61,10 @@ namespace CursoCSharp {
                 {"Parametro Padrao - Classes e Métodos", ParametroPadrao.Executar},
                 
                 // Colecões
-                //{"Array - Colecoes", Colecoes.Arry.Executar},
-
+                {"Array - Colecoes", Colecoes.Array.Executar},
+                {"List - Colecoes", ColecoesList.Executar},
+                {"Array List - Colecoes", ColecoesArrayList.Executar},
+                {"Set - Colecoes", ColecoesSet.Executar},
             });
 
             central.SelecionarEExecutar();
