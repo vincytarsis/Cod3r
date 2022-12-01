@@ -1,13 +1,12 @@
 using System;
 using System.Collections;
-using System.Colletction.Generic;
+using System.Collections.Generic;
 
 namespace CursoCSharp.Colecoes
 {
     class ColecoesQueue
     {
-        public static void Executar()
-        {
+        public static void Executar() {
             var fila = new Queue<string>();
 
             fila.Enqueue("Fulano");
@@ -20,8 +19,7 @@ namespace CursoCSharp.Colecoes
             Console.WriteLine(fila.Dequeue());
             Console.WriteLine(fila.Count);
 
-            foreach(var pessoa in flia)
-            {
+            foreach (var pessoa in fila) {
                 Console.WriteLine(pessoa);
             }
 
@@ -29,7 +27,7 @@ namespace CursoCSharp.Colecoes
             salada.Enqueue(3);
             salada.Enqueue("Item");
             salada.Enqueue(true);
-            salada.Enqueue(3.14)
+            salada.Enqueue(3.14);
         }
     }
 }

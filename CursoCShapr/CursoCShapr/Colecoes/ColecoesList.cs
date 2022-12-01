@@ -1,6 +1,7 @@
 ﻿using CursoCSharp.ClassesEMetodos;
 using System;
 using System.Collections.Generic;
+using Syste.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,16 @@ namespace CursoCSharp.Colecoes {
         public Produto(string nome, double preco) {
             Nome = nome;
             Preco = preco;
+        }
 
+        public override bool Equals(object? obj) {
+            return obj is Produto produto &&
+                   Nome == produto.Nome &&
+                   Preco == produto.Preco;
+        }
+
+        public override int GetHashCode() {
+            return HashCode.Combine(Nome, Preco);
         }
     }
     class ColecoesList {
@@ -35,7 +45,7 @@ namespace CursoCSharp.Colecoes {
 
             foreach (var item in carrinho) {
                 Console.Write(carrinho.IndexOf(item));
-                Console.WriteLine($"{item.Nome} {item.Preco}");
+               // Console.WriteLine($"{item.Nome} {item.Preco}");
             }
 
             Console.WriteLine(carrinho.Count);
