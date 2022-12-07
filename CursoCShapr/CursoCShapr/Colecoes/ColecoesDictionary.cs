@@ -24,7 +24,7 @@ namespace CursoCSharp.Colecoes {
             Console.WriteLine($"Removeu? {filmes.Remove(2019)}");
 
             filmes.TryGetValue(2020, out string filmes2020);
-            Console.WriteLine($"FIlme {filmes2020}!");
+            Console.WriteLine($"Filme {filmes2020}!");
 
             foreach (var chave in filmes.Keys) {
                 Console.WriteLine(chave);
