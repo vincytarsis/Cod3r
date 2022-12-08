@@ -46,7 +46,7 @@ namespace CursoCSharp.OO {
 
         // Oculta o método da classe Pai
         public new int Frear() {
-            retunr AlterarVelocidade(-15);
+            return AlterarVelocidade(-15);
         }
     }
     class Heranca {
@@ -65,6 +65,22 @@ namespace CursoCSharp.OO {
             Console.WriteLine(carro2.Frear());
             Console.WriteLine(carro2.Frear());
             Console.WriteLine(carro2.Frear());
+
+            Console.WriteLine("Ferrati com tipo Carro...");
+            Carro carro3 = new Ferrari();
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+
+            Console.WriteLine("Uno com tipo Carro...");
+            carro3 = new Uno(); // Polimorfismo
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
 
 
 
