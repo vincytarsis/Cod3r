@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Encapsulamento {
-    class AmigoProximo {
+    public class AmigoProximo {
 
         public readonly SubCelebridade amiga = new SubCelebridade();
 
