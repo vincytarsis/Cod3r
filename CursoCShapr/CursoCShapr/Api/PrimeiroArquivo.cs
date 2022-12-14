@@ -1,11 +1,18 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 namespace CursoCSharp.Api
 {
+    public static class ExtensaoString {
+
+        public static string ParseHome(this string path) {
+            string home = (Environment.ExpandEnvironmentVariables("%HOMEDRIVE%%HOMEPATH%"));
+            return path.Replace("~", home);
+        }
+    }
+
     class PrimeiroArquivo
     {
 
@@ -23,7 +30,7 @@ namespace CursoCSharp.Api
                     sw.WriteLine("arquivo");
                 }
             }
-            using (StreamWriter sw = FIle.AppendText(path))
+            using (StreamWriter sw = File.AppendText(path))
             {
                 sw.WriteLine("");
                 sw.WriteLine("É possivel");
@@ -33,4 +40,4 @@ namespace CursoCSharp.Api
         }
     }
 }
-}
+
