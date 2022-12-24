@@ -1,7 +1,6 @@
 using System;
-using System.Collection.Generic;
-using System.Text
-using CursoCSahrp.ClassesEMetodos;
+using System.Text;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp.TopicosAvancados
 {
@@ -12,7 +11,7 @@ namespace CursoCSharp.TopicosAvancados
 
         public Caixa(T coisa)
         {
-            Coisa = coisa;
+            coisa = coisa;
             valorPrivado = coisa;
         }
 
@@ -23,7 +22,7 @@ namespace CursoCSharp.TopicosAvancados
 
         public T GetValor()
         {
-            reuturn valorPrivado;
+            return valorPrivado;
         }
     }
     
@@ -46,10 +45,10 @@ namespace CursoCSharp.TopicosAvancados
         {
             var caixa1 = new Caixa<int>(1000);
             Console.WriteLine(caixa1.metodoGenerico(33));
-            Console.WriteLine(caixa1.Coisa.GetType());
+            Console.WriteLine(caixa1.coisa.GetType());
 
             var caixa2 = new Caixa<string>("Construtor");
-            Console.WrtieLine(caixa2.metodoGenerico("Método"));
+            Console.WriteLine(caixa2.metodoGenerico("Método"));
             Console.WriteLine(caixa2.coisa.GetType());
 
             CaixaProduto caixa3 = new CaixaProduto();

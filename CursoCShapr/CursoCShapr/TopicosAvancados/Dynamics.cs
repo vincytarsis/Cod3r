@@ -1,6 +1,5 @@
 using System;
-using System.Collection.Generic;
-using System.Text
+using System.Text;
 
 namespace CursoCSharp.TopicosAvancados
 {
